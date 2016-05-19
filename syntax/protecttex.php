@@ -48,7 +48,7 @@ class syntax_plugin_mathjax_protecttex extends DokuWiki_Syntax_Plugin {
      * @return string
      */
     public function getType() {
-        return 'protected';
+        return 'formatting';
     }
 
     /**
